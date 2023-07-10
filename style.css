@@ -1,0 +1,165 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-primary-color{
+    color:#FD6E0A ;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+}
+.section-tittle{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-descripton{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+/* Nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px ;
+}
+.nav-tittle{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+/* Header related style */
+.header{
+    background-color: #FFF8F3;;
+    background-image: url('../image/header_bg.png'), url('../image/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 500px;
+    margin-bottom: 0px;
+}
+.banner-tittle{
+    color: #181818;
+    font-size: 80px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.profile-pic{
+    width: 500px;
+    align-items: baseline;
+}
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* about section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-tittle{
+    color: #181818;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skills-description{
+    display: flex;
+    width: 201px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+/* resume section style */
+.resume-container{
+    display: flex;
+    gap: 100px;
+}
+.downnload-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer style */
+footer{
+    display: flex;
+    gap: 200px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-link a{
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 35px;
+    width: 100%;
+    color: #757575;
+    background: #FFF;
+}
